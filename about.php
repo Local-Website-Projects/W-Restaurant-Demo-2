@@ -1,12 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from epicurean.netlify.app/epicurean/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jan 2024 10:52:12 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>Epicurean - Food & Restaurant Html Template</title>
+	<title>About Us - Epicurean Food & Restaurant</title>
 	
 	<link rel="icon" href="assets/images/fav.png" type="image/gif" sizes="20x20">
 
@@ -70,100 +68,7 @@
 
 <div class="site-wrapper">
 
-	<header>
-
-		<!-- Menu -->
-
-		<div class="menu-area menu-area-two">
-			<div class="container">
-				<div class="row align-items-center gy-4">
-					<div class="col-lg-5 d-none d-lg-block">
-						<div class="mainmenu">
-							<ul>                    
-								<li class="has-child-menu"><a href="javascript:void(0)">Home</a>
-									<ul>
-										<li><a href='index.html'>Home One</a></li>
-										<li><a href='home-02.html'>Home Two</a></li>
-										<li><a href='home-03.html'>Home Three</a></li>
-										<li><a href='home-04.html'>Home Four</a></li>
-									</ul>
-								</li>
-								<li class="has-child-menu"><a href="javascript:void(0)">Blog</a>
-									<ul>
-										<li><a href='blog-grid-01.html'>Blog Grid One</a></li>
-										<li><a href='blog-grid-02.html'>Blog Grid Two</a></li>
-										<li><a href='blog-standard.html'>Blog Standard</a></li>
-										<li><a href='blog-details.html'>Blog Details</a></li>
-									</ul>
-								</li>
-								<li class="has-child-menu"><a href="javascript:void(0)">Pages</a>
-									<ul>
-										<li><a href='about.html'>About</a></li>
-										<li><a href='chefs.html'>Chefs</a></li>
-										<li><a href='faq.html'>FAQ</a></li>
-										<li><a href='reservation.html'>Reservation</a></li>
-										<li class="has-child-menu"><a href="javascript:void(0)">Food Menu</a>
-											<ul>
-												<li><a href='food-menu-01.html'>Food Menu 01</a></li>
-												<li><a href='food-menu-02.html'>Food Menu 02</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="has-child-menu"><a href="javascript:void(0)">Contact</a>
-									<ul>
-										<li><a href='contact-01.html'>Contact One</a></li>
-										<li><a href='contact-02.html'>Contact Two</a></li>
-									</ul>
-								</li>
-							</ul>
-							<div class="menu-btn-wrap flex-shrink-0 d-lg-none pb-5">
-								<a class="sign-btn common-btn mt-4" href="#">
-									<i class="bi bi-person-circle"></i>
-									<span>Sign in</span>
-								</a>
-							</div>
-						</div>
-					</div> 
-					<div class="col-lg-2 col-md-12 ">
-						<div class="menu-logo-wrap text-center">
-							<a href='index.html'><img src="assets/images/logo-two.svg" alt=""></a>
-						</div>
-					</div>
-					<div class="col-lg-5 hamburger-menu position-relative col-md-12">
-						<div class="d-flex menu-info-item align-items-center justify-content-lg-end">
-							<div class="menu-meta d-flex align-items-center">
-								<div class="search-wrap position-relative order-2 order-lg-0">
-									<div class="search-icon">
-										 <i class="bi bi-search search"></i>
-										 <i class="bi bi-x-octagon cancel"></i>
-									</div>
-									<div class="search-field">
-										 <form action="#">
-											  <input type="search" placeholder="Search">
-											  <i class="bi bi-search search"></i>
-										 </form>
-									</div>
-								</div>
-								<a class="cart-icon order-lg-1" href="#"><i class="bi bi-heart"><span>1</span></i></a>
-								<a class="cart-icon order-lg-2" href="#"><i class="bi bi-cart3"><span>5</span></i></a>
-							</div>
-							<div class="menu-btn-wrap flex-shrink-0 d-none d-lg-block">
-								<a class="sign-btn common-btn" href="#">
-									<i class="bi bi-person-circle"></i>
-									<span>Sign in</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Menu end -->
-		
-		
-	</header>
+	<?php include ('include/header.php');?>
 
 
    <!-- Breadcrumb -->
@@ -174,7 +79,7 @@
             <div class="col-lg-12">
                <div class="breadcrumb-info text-center">
                   <h1 class="text-white">About Us</h1>
-                  <p class="text-white mt-3"><a href='index.html'>Home</a><i class="bi bi-chevron-right ms-2 me-2"></i>About Us</p>
+                  <p class="text-white mt-3"><a href='index.php'>Home</a><i class="bi bi-chevron-right ms-2 me-2"></i>About Us</p>
                </div>
             </div>
          </div>
@@ -627,83 +532,7 @@
 
 	<!-- Footer -->
 
-	<div class="footer-area">
-		<div class="container">
-			<div class="row justify-content-between copyright-wrap">
-				<div class="col-lg-2 col-md-6">
-					<div class="footer-box">
-						<h2 class="h2 text-white footer-title">Product</h2>
-						<ul class="footer-list custom-ul">
-							<li><a href="#">Breakfast</a></li>
-							<li><a href="#">Lunch</a></li>
-							<li><a href="#">Desserts</a></li>
-							<li><a href="#">Dinner</a></li>
-							<li><a href="#">Book a table</a></li>
-							<li><a href="#">Our Chefs</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6">
-					<div class="footer-box">
-						<h2 class="h2 text-white footer-title">Information</h2>
-						<ul class="footer-list custom-ul">
-							<li><a href='faq.html'>FAQ</a></li>
-							<li><a href='blog-standard.html'>Blog</a></li>
-							<li><a href='contact-01.html'>Support</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6">
-					<div class="footer-box">
-						<h2 class="h2 text-white footer-title">Company</h2>
-						<ul class="footer-list custom-ul">
-							<li><a href='about.html'>About us</a></li>
-							<li><a href='reservation.html'>Our Menu</a></li>
-							<li><a href='contact-01.html'>Contact us</a></li>
-							<li><a href='index.html'>Epicurean</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-6">
-					<div class="footer-box">
-						<div class="footer-subscribe">
-							<div class="footer-subscribe-img position-relative">
-								<img class="w-100" src="assets/images/footer-subscribe-bg.png" alt="">
-								<div class="section-title ps-4 position-absolute top-50 start-50 translate-middle w-100">
-									<span class="text-white">Subscribe</span>
-									<h2 class="mt-2 text-white">Our News letter</h2>
-									<p class="mt-3 text-white">To Get Regular Update</p>
-								</div>
-							</div>
-							<form class="footer-subscribe-form mt-4 d-flex justify-content-between align-items-center" action="#">
-								<input class="w-100 border-0 h-100 ps-3 pe-3" type="email" placeholder="Enter your mail">
-								<button class="common-btn h-100 flex-shrink-0 border-0 border-radius-0 ms-lg-4 ms-2" type="submit"><span>Subscribe</span></button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row align-items-center mt-4">
-				<div class="col-lg-4 text-center text-lg-start">
-					<a class='footer-logo ' href='index.html'><img src="assets/images/logo-two.svg" alt=""></a>
-				</div>
-				<div class="col-lg-4">
-					<ul class="footer-menu custom-ul d-flex justify-content-center mt-3 mb-3 mt-lg-0 mb-lg-0">
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Cookies</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-4">
-					<ul class="custom-ul social-list chefs-social-list d-flex justify-content-center justify-content-lg-end align-items-center">
-						<li><a href="#"><i class="bx bxl-facebook"></i></a></li>
-						<li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
-						<li><a href="#"><i class="bx bxl-instagram"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php include ('include/footer.php');?>
 
 	<!-- Footer End -->
 
@@ -735,5 +564,4 @@
 <script src="assets/js/main.js"></script>
 </body>
 
-<!-- Mirrored from epicurean.netlify.app/epicurean/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jan 2024 10:52:15 GMT -->
 </html>

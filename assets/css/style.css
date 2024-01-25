@@ -656,6 +656,7 @@ body::-webkit-scrollbar-thumb {
 2. Menu CSS
 =================================================*/
 .menu-area {
+  background: #f9f4ec;
   width: 100%;
   padding: 18px 0px;
   position: absolute;
